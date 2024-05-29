@@ -8,6 +8,15 @@ html {
     box-sizing: inherit;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .container {
     max-width: 1220px;
     padding: 0 10px;
@@ -32,4 +41,21 @@ body {
     font-family: "Playfair Display", serif;
     font-weight: 400;
     text-transform: uppercase;
+    margin-left: auto;
+}
+
+.menu {
+    margin-left: 130px;
+    margin-right: 185px;
+}
+
+.menu_item {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.user-nav {
+    display: flex;
+    gap: 0 20px;
 }
